@@ -8,3 +8,9 @@ by changing few variables to get desired results. Furthermore, there’s scope o
 functionality without disturbing any of the existing one. This is made possible by using 
 Object Oriented Programming, a Modular for designing web service, and following large 
 parts of MVC model. This allows us to extend the project to mobile applications and other environments.
+
+##To run the project, install XAMPP or WAMPP or LAMPP
+
+Go to the browser and type http://localhost/AMS/filename.php
+Import the attendance.sql given in this project with name "attendance"
+and then run this project to take attendance
