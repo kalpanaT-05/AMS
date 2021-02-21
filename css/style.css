@@ -1,0 +1,117 @@
+#header {
+  padding: 0px 10px 10px 10px;
+  box-shadow: 0px -5px 19px 10px lightblue;
+  background: rgba(111, 24, 24, 1);
+  color: white;
+  margin-bottom: 50px;
+}
+#pie,
+#chart {
+  display: inline-block;
+}
+#chart {
+  width: 65%;
+  margin: 10px;
+}
+#sub-menu {
+  margin-top: -50px;
+}
+#faculty_section {
+  display: flex;
+  margin-top: 7rem;
+}
+#footer_items {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+#footer_list1,
+#footer_list2 {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+.btn_custom {
+  background-color: #66cdaa;
+  margin-top: 3rem;
+}
+.class {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  cursor: pointer;
+  position: relative;
+}
+.class:hover {
+  box-shadow: 0px 0px 10px grey;
+}
+.class:hover .delete-class-warning {
+  display: block !important;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border-radius: 50%;
+}
+.no-decoration {
+  text-decoration: none !important;
+}
+#addClass {
+  font-size: 80px;
+  padding: 10px;
+}
+.modal-content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.modal-content li {
+  margin: 5px;
+}
+.modal-content input,
+.modal-content select {
+  margin: 20px;
+  width: 92%;
+}
+.student-record {
+  float: left;
+  border: 1px solid grey;
+  margin: 2px;
+  padding: 4px;
+  width: 175px;
+  text-align: center;
+}
+#student_container,
+#profile_edit,
+#stats_container {
+  margin-top: 8rem;
+}
+#studentRecords {
+  margin-top: 2rem;
+}
+.delete-class-warning {
+  display: none !important;
+}
+.classes {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 20px;
+}
+.classes .list p {
+  border: 1px solid lightgrey;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px !important;
+  font-weight: 100 !important;
+}
+dd {
+  margin: 5px;
+}
+#studentRow {
+  margin-top: 10rem;
+  padding: 40px;
+}
